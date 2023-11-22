@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+img{
+    float: left;
+margin-left: 45px;
+margin-bottom: 10px;
+
+}
+    </style>
+    
+</head>
+<body>
+    
+    <h1> Welcome {{x2}}  </h1>
+    <h1><ins>PYTHON FLASK</ins></h1>
+    <img src="/static/nic1.jpg" alt="click here" height="620px" width="500px" style="border: 3px solid pink;
+    border-width: 25px;
+    border-radius: 25px;
+    border-style:groove;border-right: none;">
+    <img src="/static/nic2.jpg" alt="click here" height="620px" width="500px" style="float:right;margin-right:63px;border: 3px solid pink;
+    border-width: 25px;
+    border-radius: 25px;
+    border-style:groove;border-left: none;">
+    
+   
+    <form class="f1">
+        
+        <ol>
+       <li><label> Enter Your Name ::</label></li><br>
+<input type="text" id="c1"><br>
+<li><label>Enter Your Password::</label></li><br>
+<input type="password" id="c2"><br>
+<li><label>Enter Your Email::</label></li><br>
+<input type="email" id="c3"><br>
+<li><label>Enter Your Date Of Birth:: </label></li><br>
+<input type="date" id="c4"></br>
+<input type="submit" id="c5"></br>
+<li><label> Upload Your Photo</label></li>
+<input type="file" id="c6"></br>
+        </ol>
+    </form>
+  
+</body>
+</html>
